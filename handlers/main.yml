@@ -1,0 +1,9 @@
+# Standards: 1.2
+---
+- name: Restart nfs
+  systemd:
+    name: nfs-server
+    state: restarted
+    daemon_reload: True
+
+...

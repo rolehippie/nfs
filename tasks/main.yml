@@ -1,0 +1,42 @@
+# Standards: 1.2
+---
+- name: Install required packages
+  loop:
+    - nfs-kernel-server
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - nfs
+
+- name: Create required dirs
+  loop: "{{ nfs_exports }}"
+  loop_control:
+    label: "{{ item.path }}"
+  file:
+    path: "{{ item.path }}"
+    state: directory
+    mode: u=rwx,g=rwx,o=rwx
+  tags:
+    - nfs
+
+- name: Write export config
+  notify:
+    - Restart nfs
+  template:
+    src: exports.j2
+    dest: /etc/exports
+  tags:
+    - nfs
+
+- name: Start nfs service
+  systemd:
+    name: nfs-server
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - nfs
+
+...

@@ -1,0 +1,17 @@
+# Standards: 1.2
+---
+# @var nfs_exports:description: List of available exports
+# @var nfs_exports:example: >
+# nfs_exports:
+#   - path: /data/bar
+#     host: 192.168.0.0/24
+#     options:
+#       - rw
+#       - sync
+#       - no_subtree_check
+#   - path: /data/baz
+#     network: 192.168.0.0/24
+# @end
+nfs_exports: []
+
+...
