@@ -16,6 +16,8 @@
   file:
     path: "{{ item.path }}"
     state: directory
+    owner: root
+    group: root
     mode: u=rwx,g=rwx,o=rwx
   tags:
     - nfs
@@ -26,6 +28,9 @@
   template:
     src: exports.j2
     dest: /etc/exports
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - nfs
 
