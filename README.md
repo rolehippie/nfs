@@ -1,6 +1,11 @@
 # nfs
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/nfs) [![General Workflow](https://github.com/rolehippie/nfs/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/general.yml) [![Readme Workflow](https://github.com/rolehippie/nfs/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/readme.yml) [![Galaxy Workflow](https://github.com/rolehippie/nfs/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/galaxy.yml) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/nfs)](https://github.com/rolehippie/nfs/blob/master/LICENSE) [![Ansible Role](https://img.shields.io/ansible/role/55302)](https://galaxy.ansible.com/rolehippie/nfs)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/nfs)
+[![General Workflow](https://github.com/rolehippie/nfs/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/general.yml)
+[![Readme Workflow](https://github.com/rolehippie/nfs/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/readme.yml)
+[![Galaxy Workflow](https://github.com/rolehippie/nfs/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/nfs/actions/workflows/galaxy.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/nfs)](https://github.com/rolehippie/nfs/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.nfs-blue)](https://galaxy.ansible.com/rolehippie/nfs)
 
 Ansible role to install and configure a NFS server.
 
