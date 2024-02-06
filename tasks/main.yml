@@ -2,7 +2,7 @@
 - name: Install required packages
   loop:
     - nfs-kernel-server
-  package:
+  ansible.builtin.package:
     name: "{{ item }}"
     state: present
   tags:
@@ -12,7 +12,7 @@
   loop: "{{ nfs_exports }}"
   loop_control:
     label: "{{ item.path }}"
-  file:
+  ansible.builtin.file:
     path: "{{ item.path }}"
     state: directory
     owner: root
@@ -24,7 +24,7 @@
 - name: Write export config
   notify:
     - Restart nfs
-  template:
+  ansible.builtin.template:
     src: exports.j2
     dest: /etc/exports
     owner: root
@@ -34,7 +34,7 @@
     - nfs
 
 - name: Start nfs service
-  systemd:
+  ansible.builtin.systemd:
     name: nfs-server
     state: started
     daemon_reload: True
