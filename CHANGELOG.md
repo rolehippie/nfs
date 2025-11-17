@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/nfs/compare/v2.0.0...v2.1.0) (2025-11-17)
+
+
+### Features
+
+* apply new repo structure and update linting ([f9aa3f1](https://github.com/rolehippie/nfs/commit/f9aa3f18b9cc1565459d6f1b45ec5587251835d6))
+
 ## [2.0.0](https://github.com/rolehippie/nfs/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
