@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.1](https://github.com/rolehippie/nfs/compare/v2.2.0...v2.2.1) (2026-08-10)
+
+### Dependencies
+
+* **patch:** update dependency python to v3.14.7 ([#43](https://github.com/rolehippie/nfs/issues/43)) ([aa03d85](https://github.com/rolehippie/nfs/commit/aa03d85e28d84f067be539f33dcdcd5f7e569ae8))
+
 ## [2.2.0](https://github.com/rolehippie/nfs/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/nfs/compare/v2.0.0...v2.1.0) (2025-11-17)
