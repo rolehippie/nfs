@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.1](https://github.com/rolehippie/nfs/compare/v2.3.0...v2.3.1) (2026-08-31)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#50](https://github.com/rolehippie/nfs/issues/50)) ([c34ed17](https://github.com/rolehippie/nfs/commit/c34ed1743633c375a1ee3b6c8f7438da748b884b))
+
 ## [2.3.0](https://github.com/rolehippie/nfs/compare/v2.2.1...v2.3.0) (2026-08-17)
 
 ### Dependencies
