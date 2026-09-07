@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/nfs/compare/v2.3.1...v2.4.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([6b4e643](https://github.com/rolehippie/nfs/commit/6b4e643af75807c96b9b33a634f31671e06484c4))
+
 ## [2.3.1](https://github.com/rolehippie/nfs/compare/v2.3.0...v2.3.1) (2026-08-31)
 
 ### Dependencies
